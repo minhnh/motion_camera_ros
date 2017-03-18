@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="motion_camera_ros" type="motion_camera_node" name="motion_camera" output="screen">
+        <param name="loop_rate" type="double" value="2.0" />
+        <param name="image_dir" type="string" value="$(env HOME)/motion_cam_images" />
+    </node>
+</launch>

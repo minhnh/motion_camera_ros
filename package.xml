@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>motion_camera_ros</name>
+  <version>0.0.0</version>
+  <description>The motion_camera_ros package</description>
+
+  <maintainer email="minhnh.91@gmail.com">Minh Nguyen</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="minhnh.91@gmail.com">Minh Nguyen</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+</package>

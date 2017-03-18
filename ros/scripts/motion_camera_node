@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+from motion_camera_ros import motion_camera
+
+
+if __name__ == '__main__':
+    motion_camera.main()
+    pass
